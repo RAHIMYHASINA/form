@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css.css">
+ <script src="app.js" defer></script>
+ <style>
+    div{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+font-size: 20px;
+
+   }
+</style>
+</head>
+<body>
+    <div class="dic1">
+        <fieldset style="width: 60%;">
+            <legend style="text-align: center;">Registration Form</legend>
+            <br> <br>
+<form action="/action_page.php">
+<label for="fname">First name:</label><br>
+<input style="width: 100%;" type="text" id="fname" name="fname"required><br>
+<label for="lname">Last name:</label><br>
+  <input style="width: 100%;" type="text" id="lname" name="lname" required><br>
+  <label for="email">Email address:</label><br>
+  <input style="width: 100%;" type="text" id="email" name="email" required><br>
+  <label for="Password">Password:</label><br>
+  <input style="width: 100%;" type="text" id="Password" name="Password" required><br>
+  <label for="Confirm Password">Confirm Password</label><br>
+  <input style="width: 100%;" type="text" id="Confirm Password" name="Confirm Password" required><br>
+   What is your Entertainment:<br>
+   <label><input type="radio" name="What is your Entertainment" value="Sports">Sports <label><input type="radio" name="What is your Entertainment" value="Music" required>Music<label><input type="radio" name="What is your Entertainment" value="Movies">Movies
+   </label><br>
+    Gender:<br>
+    <label><input type="radio" name="gender" value="female"> Female <label><input type="radio" name="gender" value="male" required> Male <label><input type="radio" name="gender" value="other">Other
+  </label><br>
+  <input style="background-color: green; width: 100%; text-align: center;" type="submit" value="Register" required>
+
+</form>
